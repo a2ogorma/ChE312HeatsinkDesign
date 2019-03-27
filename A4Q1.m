@@ -1,4 +1,5 @@
 clear all
+%Test addition
 global E
 E = 1/2;
 funerf = @(T) 1 - erf((1-E)/(2*T^0.5)); %short contact time assumption
